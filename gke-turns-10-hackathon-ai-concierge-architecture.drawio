@@ -1,0 +1,198 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2" pages="2">
+  <diagram name="High-Level" id="jPZCB7lVW85q684_eOfK">
+    <mxGraphModel dx="1111" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GaT219w64fsK40Bngeal-1" value="External AI Services" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="682" width="289" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-2" value="Google Cloud Platform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="1303" height="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-3" value="Google Cloud Services" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="487" y="934" width="805" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-4" value="Google Kubernetes Engine (GKE) Cluster" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="149" width="438" height="987" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-5" value="E-commerce Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1444" y="959" width="272" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-6" value="Data Access Layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="707" width="249" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-7" value="AI Processing Layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="480" width="316" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-8" value="Frontend Layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="174" width="330" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-9" value="👤 User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1448" y="20" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-10" value="Google Cloud Load Balancer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="199" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-11" value="Streamlit UI&#xa;Port: 80/8501" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1421" y="327" width="173" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-12" value="ADK Agents&#xa;Semantic Search &amp; AI&#xa;Port: 8000" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1401" y="505" width="212" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-13" value="MCP Server&#xa;Product Data API&#xa;Port: 8080" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="732" width="179" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-14" value="Online Boutique&#xa;Microservices Demo&#xa;Multiple Services" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1479" y="984" width="202" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-15" value="Artifact Registry&#xa;Container Images" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="522" y="996" width="203" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-16" value="IAM &amp; Service Accounts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1008" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-17" value="VPC Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="1008" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-18" value="Google Gemini API&#xa;Conversational AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="744" width="219" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-19" value="GKE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="344" y="756" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-9" target="GaT219w64fsK40Bngeal-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-10" target="GaT219w64fsK40Bngeal-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-11" target="GaT219w64fsK40Bngeal-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-12" target="GaT219w64fsK40Bngeal-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1579" y="632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-13" target="GaT219w64fsK40Bngeal-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-25" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=1;entryY=0.42;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-12" target="GaT219w64fsK40Bngeal-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1435" y="632" />
+              <mxPoint x="1435" y="707" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-19" target="GaT219w64fsK40Bngeal-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="624" y="859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.62;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-19" target="GaT219w64fsK40Bngeal-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="901" y="859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaT219w64fsK40Bngeal-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.58;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GaT219w64fsK40Bngeal-19" target="GaT219w64fsK40Bngeal-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1167" y="859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CKq6tj4Y7S1uK97WQR7Y" name="Components">
+    <mxGraphModel dx="724" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--1" value="API Connections" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="552" y="25" width="310" height="381" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--2" value="Streamlit UI Container" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="482" height="362" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--3" value="Web Interface&#xa;Streamlit App" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="153" width="145" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--4" value="Chat Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="61" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--5" value="Product Search" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="165" width="147" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--6" value="Shopping Cart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="293" width="143" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--7" value="ADK Agents API&#xa;http://adk-agents-service:8000" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="577" y="89" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--8" value="MCP Server API&#xa;http://mcp-server-service:8080" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="577" y="269" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Cz8eNf64OO4CBqI3eWL--3" target="Cz8eNf64OO4CBqI3eWL--4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Cz8eNf64OO4CBqI3eWL--3" target="Cz8eNf64OO4CBqI3eWL--5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--15" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cz8eNf64OO4CBqI3eWL--10">
+          <mxGeometry x="-0.28" y="-9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Cz8eNf64OO4CBqI3eWL--3" target="Cz8eNf64OO4CBqI3eWL--6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.07;rounded=0;" edge="1" parent="1" source="Cz8eNf64OO4CBqI3eWL--4" target="Cz8eNf64OO4CBqI3eWL--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.93;rounded=0;" edge="1" parent="1" source="Cz8eNf64OO4CBqI3eWL--5" target="Cz8eNf64OO4CBqI3eWL--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz8eNf64OO4CBqI3eWL--14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Cz8eNf64OO4CBqI3eWL--6" target="Cz8eNf64OO4CBqI3eWL--8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

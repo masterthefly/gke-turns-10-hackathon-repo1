@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adk-agents
+  labels:
+    app: adk-agents
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adk-agents
+  template:
+    metadata:
+      labels:
+        app: adk-agents
+    spec:
+      serviceAccountName: gke-turns-10-ksa
+      containers:
+      - name: agents
+        image: # IMAGE_TAG_PLACEHOLDER
+        ports:
+        - containerPort: 8000
+        env:
+        - name: MCP_SERVER_URL
+          value: "http://mcp-server-service.default.svc.cluster.local:8080"
+        - name: GEMINI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gemini-api-key
+              key: api-key
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agents-service
+  labels:
+    app: adk-agents
+spec:
+  type: ClusterIP
+  selector:
+    app: adk-agents
+  ports:
+  - protocol: TCP
+    port: 8000
+    targetPort: 8000

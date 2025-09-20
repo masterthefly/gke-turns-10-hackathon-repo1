@@ -1,0 +1,16 @@
+# MCP server dependencies
+fastapi
+uvicorn>=0.24.0
+pydantic
+fastmcp>=0.3.0
+
+# gRPC stuff for talking to the other services
+grpcio>=1.60.0
+grpcio-tools>=1.60.0
+protobuf>=4.25.1
+
+# Google Cloud logging
+google-cloud-logging>=3.8.0
+
+# HTTP requests
+httpx>=0.27.0

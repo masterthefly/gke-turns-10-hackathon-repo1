@@ -1,0 +1,92 @@
+# Sensitive configuration files
+.setup-config.ps1
+.setup-config.sh
+*.env
+
+# API Keys and secrets
+*api-key*
+*secret*
+*.pem
+*.key
+*.crt
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+tfplan
+*.tfplan
+
+# Docker and build artifacts
+.dockerignore
+docker-compose.override.yml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Project specific
+terraform-gke-*/
+cluster-state.json
+.kubectl_aliases
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local development
+.devcontainer/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test files
+test.txt
+test2.txt
+
+# Old backup files
+*_before_fixes_*
+deploy_before_*
+
+# External repositories (should be submodules)
+microservices-demo/
